@@ -8,5 +8,9 @@ dependencies = [
     "aiosqlite>=0.22.1",
     "fastapi[standard]>=0.136.0",
     "greenlet>=3.4.0",
+    "ruff>=0.15.12",
     "sqlalchemy>=2.0.49",
 ]
+[tool.ruff.lint]
+# Standard linting
+select = ["E", "W", "F", "I"]
